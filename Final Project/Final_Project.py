@@ -10,9 +10,9 @@ Qs={"What is the capital of Turkey: ": "Ankara",
     "In Greek mythology, who is the God of the sea: ":"Poseidon",
     "The largest desert of the World is: ": "Sahara"}
 
-checker=[]#"checker" is to check wheter the corresponding question is true or not.
+checker=[]#"checker" is to check whether the corresponding question is true or not.
 answers=[]#This list will store the answer that the user will give.
-totalPoints=0#"totalPoints" is representing the the total point that the user get
+totalPoints=0#"totalPoints" is representing the the total points that the user gets
 
 for i in Qs: #Asking all the question to the user
     ans=str((input("\n"+i))) #Taking the answer
