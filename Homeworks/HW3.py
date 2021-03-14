@@ -1,7 +1,7 @@
 students=[]#List for sotring the information of the students
 passingGrades=[]#List for storing the passing grades of students
 
-for i in range(5):#Takink information of students from the user
+for i in range(5):#Taking information of students from the user
     students.append({})#Creating a dictionary for each student on the list
     students[i]["Name"]=input("\nEnter the name of "+str(i+1)+". Student: ")
     students[i]["Midterm Grade"]=int(input("Enter the midterm grade of "+str(i+1)+". Student: "))
