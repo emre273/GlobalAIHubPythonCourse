@@ -1,4 +1,4 @@
-students=[]#List for sotring the information of the students
+students=[]#List for storing the information of the students
 passingGrades=[]#List for storing the passing grades of students
 
 for i in range(5):#Taking information of students from the user
